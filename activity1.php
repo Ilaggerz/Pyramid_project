@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <head>  
     <title>Activity #1</title>
-    <!-- <link rel="stylesheet" type="text/css" href="activity1.css"> -->
     
 </head> 
 <style>
@@ -49,8 +48,6 @@
     width: 300px;
     padding: 5px;
     margin: auto;
-    /* border: 5px solid yellow; */
-    /* background-color: whitesmoke; */
 }
 
 .input_area{
@@ -58,7 +55,6 @@
     width: 250px;
     padding: 5px;
     margin: auto;
-    /* border: 5px solid blue; */
     background-color: aliceblue;
 }
 
@@ -67,7 +63,6 @@
     width: 250px;
     padding: 5px;
     margin: auto;
-    /* border: 5px solid violet; */
     background-color: aliceblue;
 }
 label{
@@ -157,7 +152,7 @@ footer{
                 {
                     for($j = 1; $j <= $i; $j++ )
                     {
-                        // Print numbers // test
+                       
                         // echo "<div class= 'pyra'>".$i." "."</div>";
                         if ($j == 1 || $i == $j )
                         {
@@ -190,7 +185,6 @@ footer{
                         
                         }
                     }
-                // go to new line after each row pattern is printed
                 echo "<br>";
                 }
         }
