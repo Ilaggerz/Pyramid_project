@@ -152,27 +152,10 @@ footer{
                 {
                     for($j = 1; $j <= $i; $j++ )
                     {
-                       
-                        // echo "<div class= 'pyra'>".$i." "."</div>";
                         if ($j == 1 || $i == $j )
                         {
                         echo "<div class = 'pyra' style = 'background-color: yellow'>".$i."</div>";
-                        //     if ($i % 2 == 0)
-                        //     {
-                        //         echo "<div class = 'pyra' style = 'background-color: blue; color: white'>".$i."</div>";
-                        //     }
-                        //     else
-                        //     {
-                        //         echo "<div class = 'pyra' style = 'background-color: red; color: white'>".$i."</div>";
-                        //     }
-                        // }
-                        // elseif ( $i == $num)
-                        // {
-                        //     echo "<div class = 'pyra' style = 'background-color: green ;color: white'>".$i."</div>";
-                        // }
-                        // else
-                        // {
-                        //     echo "<div class = 'pyra' style = 'background-color: yellow'>".$i."</div>";
+                     
                         }
                         elseif ($i % 2 == 0)
                         {
@@ -182,7 +165,6 @@ footer{
                         else
                         {
                         echo "<div class = 'pyra' style ='background-color: red'>".$i."</div>";
-                        
                         }
                     }
                 echo "<br>";
