@@ -1,8 +1,9 @@
 # Pyramid_project
 
-1st Version of the Pyramid project
-
-### Live Demo: 
-https://ilaggerz.github.io/Pyramid_project/index.php
-
-note: only works on html files not php :<
+### 1st Version of the Pyramid project
+  * 3 color pattern
+  * colors: Yellow, Red and Blue
+  
+### 2nd Version of the Pyramid project
+  * 4 color pattern
+  * colors: Blue , Green, Yellow and Red
